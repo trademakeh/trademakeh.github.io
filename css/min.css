@@ -1,0 +1,287 @@
+body,
+html {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #ffffff
+}
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3 {
+    font-weight: 700
+}
+
+.h6,
+h6 {
+    font-weight: 400
+}
+
+img {
+    max-width: 100%
+}
+
+.header {
+    padding-bottom: 13px;
+    margin-bottom: 13px
+}
+
+.container {
+    max-width: 1024px
+}
+
+.navbar {
+    margin-bottom: 25px;
+    color: #f1f2f3;
+    font-weight: 400;
+    box-shadow: 0 4px 0 0 rgb(0 0 0 / 5%);
+    border-color: #e7e7e7;
+    border-width: 0 0 1px;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar .navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.row.content,
+.row.footer,
+.row.header {
+    widthx: auto;
+    max-widthx: 100%
+}
+
+.row.footer {
+    padding: 30px 0;
+    background: 0 0
+}
+
+.content .col-sm-12 {
+    padding: 0
+}
+
+.content .col-md-9s {
+    margin-right: -25px
+}
+
+.posts-image {
+    width: 25%;
+    display: block;
+    float: left
+}
+
+.posts-image-content {
+    width: auto;
+    margin: 0 15px 35px 0;
+    position: relative
+}
+
+.posts-image:nth-child(5n) .posts-image-content {
+    margin: 0 0 35px !important
+}
+
+.posts-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    -webkit-transition: .6s opacity;
+    transition: .6s opacity
+}
+
+.posts-image:hover img {
+    opacity: .8
+}
+
+.posts-image:hover h2 {
+    background: rgba(0, 0, 0, .7)
+}
+
+.posts-image h2 {
+    z-index: 2;
+    position: absolute;
+    font-size: 14px;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    text-align: center;
+    -webkit-transition: .6s opacity;
+    transition: .6s background
+}
+
+.posts-image h2 a {
+    color: #fff
+}
+
+.posts-image-big {
+    display: block;
+    width: 100%
+}
+
+.posts-image-big .posts-image-content {
+    margin: 0 0 10px !important
+}
+
+.posts-image-big img {
+    height: 380px
+}
+
+.posts-image-big h2 {
+    text-align: left;
+    padding-left: 0;
+    position: relative;
+    font-size: 30px;
+    line-height: 36px
+}
+
+.posts-image-big h2 a {
+    color: #111
+}
+
+.posts-image-big:hover h2 {
+    background: 0 0
+}
+
+.posts-image-single .posts-image-content,
+.posts-image-single:nth-child(5n) .posts-image-content {
+    margin: 0 15px 15px 0 !important
+}
+
+.posts-image-single p {
+    font-size: 12px;
+    line-height: 18px !important
+}
+
+.posts-images {
+    clear: both
+}
+
+.list-group li {
+    padding: 0
+}
+
+.list-group li a {
+    display: block;
+    padding: 8px
+}
+
+.widget {
+    margin-bottom: 20px
+}
+
+h3.widget-title {
+    font-size: 20px
+}
+
+a {
+    color: #f42966;
+    text-decoration: none
+}
+
+.footer {
+    margin-top: 21px;
+    padding-top: 13px;
+    border-top: 1px solid #eee
+}
+
+.footer a {
+    margin: 0 15px
+}
+
+.navi {
+    margin: 13px 0
+}
+
+.navi a {
+    margin: 5px 2px;
+    font-size: 95%;
+	white-space: pre-wrap;
+}
+
+@media only screen and (min-width:0px) and (max-width:991px) {
+    .container {
+        width: auto;
+        max-width: 100%
+    }
+
+    .navbar .container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+    .content .col-md-3 {
+        padding: 15px
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:640px) {
+    .posts-image img {
+        height: 90px
+    }
+
+    .posts-image-big img {
+        height: 320px
+    }
+
+    .posts-image-single {
+        width: 33.3%
+    }
+
+    .posts-image-single:nth-child(3n) .posts-image-content {
+        margin-right: 0 !important
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:480px) {
+    .posts-image img {
+        height: 80px
+    }
+
+    .posts-image-big img {
+        height: 240px
+    }
+
+    .posts-image-single {
+        width: 100%
+    }
+
+    .posts-image-single .posts-image-content {
+        margin: 0 !important
+    }
+
+    .posts-image-single img {
+        height: auto
+    }
+}
+
+.v-cover {
+    height: 380px;
+    object-fit: cover;
+}
+
+.v-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.dwn-cover {
+    max-height: 460px;
+    object-fit: cover;
+}
+
+.main {
+    margin-top: 6rem;
+}
+
+.form-inline .form-control {
+    min-width: 300px;
+}
